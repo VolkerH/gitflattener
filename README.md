@@ -1,6 +1,7 @@
 # gitflattener
 
 Flatten a Git repository into a single plain text or Markdown file — ideal for use as context for large language models (LLMs).
+Quickly generated with ChatGPT, inspired by [`uithub`](https://uithub.com/)
 
 This tool respects `.gitignore`, skips binary files (with optional links), and provides clean, easy-to-ingest output.
 
@@ -15,7 +16,7 @@ This tool respects `.gitignore`, skips binary files (with optional links), and p
 ## Installation
 
 ```bash
-git clone https:// .... / gitflattener.git
+git https://github.com/VolkerH/gitflattener.git
 cd gitflattener
 pip install .
 ```
