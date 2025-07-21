@@ -1,0 +1,17 @@
+[project]
+name = "gitflattener"
+version = "0.1.0"
+description = "Flatten Git repositories into a single text or Markdown file for LLM context ingestion."
+authors = [{ name = "Your Name", email = "your.email@example.com" }]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+gitflattener = "gitflattener.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
